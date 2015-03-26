@@ -735,9 +735,10 @@ select,
 textarea,
 button,
 .ui-btn {
-	font-size: 1em;
+	font-size: 13px;
 	line-height: 2;
 	font-family: sans-serif /*{global-font-family}*/;
+    font-weight:normal;
 }
 legend,
 .ui-input-text input,
@@ -1146,6 +1147,7 @@ html .ui-panel-page-container-b {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01b258', endColorstr='#018a44',GradientType=0 ); /* IE6-9 */
 	border-color:	 		#01b258 /*{b-body-border}*/;
 	color: 					#fff /*{b-body-color}*/;
+    font-weight: bold;
 
 }
 .ui-body-b {
